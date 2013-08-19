@@ -1,0 +1,282 @@
+AWSTATS DATA FILE 6.95 (build 1.943)
+# If you remove this file, all statistics for date 201307 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.ruaptekar.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1959                
+POS_TIME 2638                
+POS_VISITOR 3312                
+POS_DAY 4092                
+POS_DOMAIN 4243                
+POS_LOGIN 4473                
+POS_ROBOT 4628                
+POS_WORMS 4760                
+POS_EMAILSENDER 4891                
+POS_EMAILRECEIVER 5034                
+POS_SESSION 5110                
+POS_SIDER 5266                
+POS_FILETYPES 6302                
+POS_OS 6510                
+POS_BROWSER 6560                
+POS_SCREENSIZE 6656                
+POS_UNKNOWNREFERER 6730                
+POS_UNKNOWNREFERERBROWSER 6817                
+POS_ORIGIN 6899                
+POS_SEREFERRALS 7035                
+POS_PAGEREFS 7179                
+POS_SEARCHWORDS 7327                
+POS_KEYWORDS 7479                
+POS_MISC 2302                
+POS_ERRORS 7538                
+POS_CLUSTER 4329                
+POS_SIDER_404 7645                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20130716214850 257 64551 50857357452
+FirstTime 20130716171335
+LastTime 20130716214850
+LastUpdate 20130717000221 257 0 257 0 0
+TotalVisits 5                   
+TotalUnique 5                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 23                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 2 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 0 0
+1 0 0 0 0 0 0
+2 0 0 0 0 0 0
+3 0 0 0 0 0 0
+4 0 0 0 0 0 0
+5 0 0 0 0 0 0
+6 0 0 0 0 0 0
+7 0 0 0 0 0 0
+8 0 0 0 0 0 0
+9 0 0 0 0 0 0
+10 0 0 0 0 0 0
+11 0 0 0 0 0 0
+12 0 0 0 0 0 0
+13 0 0 0 0 0 0
+14 0 0 0 0 0 0
+15 0 0 0 0 0 0
+16 0 0 0 0 0 0
+17 114 177 1452238 8 10 6740
+18 0 0 0 0 0 0
+19 0 0 0 0 0 0
+20 0 0 0 0 0 0
+21 32 69 475702 0 1 1174
+22 0 0 0 0 0 0
+23 0 0 0 0 0 0
+END_TIME
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 23
+108.162.231.116 90 91 185172 20130716175832
+173.245.53.193 32 33 78076 20130716214850 20130716214835 /site/write
+173.245.51.118 18 24 160866 20130716175833
+108.162.231.117 5 11 66971 20130716175124
+108.162.231.191 1 4 65486 20130716171422
+173.245.53.91 0 3 42400 
+173.245.51.117 0 3 159408 
+173.245.53.194 0 2 18587 
+108.162.231.118 0 3 10679 
+173.245.51.116 0 8 57033 
+173.245.53.195 0 2 66957 
+173.245.53.192 0 6 50076 
+173.245.51.193 0 4 75368 
+173.245.53.89 0 5 113956 
+108.162.231.193 0 9 500636 
+173.245.53.92 0 3 24943 
+173.245.53.86 0 5 18556 
+108.162.231.192 0 3 17470 
+173.245.53.90 0 5 28409 
+173.245.51.191 0 10 69474 
+173.245.51.192 0 7 83675 
+173.245.53.87 0 3 18118 
+173.245.53.88 0 2 15624 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 1
+20130716 146 246 1927940 5
+END_DAY
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 146 246 1927940
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+0s-30s 1
+30mn-1h 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 27
+/site/write 36 9180 0 1
+/order/index 19 22326 0 0
+/order/setParam 14 5488 0 1
+/ 13 40714 3 0
+/order 7 6989 0 0
+/product/addProduct 7 2744 0 0
+/admin/settings/update 6 3764 0 0
+/cart/redraw 6 3266 0 0
+/articles/dostavka.html 5 20703 0 0
+/order/success 4 12184 0 1
+/dzheneriki/dapoxetine.html 3 20683 0 0
+/site/synchronize 1 415 0 0
+/articles/voprosi-i-otveti.html 3 13700 0 0
+/site/contact 2 5982 0 0
+/admin/settings/clearCache 2 810 0 0
+/admin/default/login 1 1568 0 0
+/dzheneriki/kupit_levitru_dzhenerik.html 1 7176 0 0
+/dzheneriki/super-cialis.html 1 3618 0 0
+/cart/index 1 2856 0 0
+/assets/e3ecaab1/less/mixins.less 1 22112 0 0
+/admin/products 1 29822 0 0
+/dzheneriki/super-p-force.html 1 7050 0 0
+/dzheneriki/kupit_cialis_dzhenerik.html 2 11819 0 0
+/admin/settings 3 8824 1 0
+/assets/e3ecaab1/fonts/fontawesome-webfont.woff 1 41995 1 1
+/dzheneriki/kupit_viagru_dzhenerik.html 2 14713 0 0
+/cart/change 3 1176 0 0
+END_SIDER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+css 9 239472 0 0
+png 74 670596 0 0
+woff 1 41995 0 0
+html 31 140176 0 0
+less 1 22112 0 0
+js 12 560404 0 0
+jpg 4 133914 0 0
+Unknown 113 117394 0 0
+gif 1 1877 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 1
+macosx 246
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 2
+chrome28.0.1500.71 69
+chrome27.0.1453.116 177
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 10 10
+From1 0 0
+From2 0 0
+From3 0 0
+From4 136 236
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+403 1 390
+302 6 2692
+404 1 2484
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 1
+/cf_error_check/5aa7dd02c6d70ddf9865d4aa1d663635.html 1 -
+END_SIDER_404
