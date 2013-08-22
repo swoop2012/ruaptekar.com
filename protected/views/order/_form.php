@@ -12,7 +12,7 @@
     <h4>Заполните данные для доставки:</b></h4>
 <?= $form->hiddenField($model,'typeDelivery',array('value'=>1));?>
         <p>
-            <label>Имя </label>
+            <label>Полное ФИО </label>
             <?= $form->textField($model,'fullName'); ?>
 
         </p>
