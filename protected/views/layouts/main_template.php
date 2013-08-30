@@ -34,8 +34,8 @@
 
         <nav id="nav">
             <a href="/">Каталог продукции</a>
-            <a href="<?= $this->createUrl('/info/dostavka.html');?>">Доставка и оплата</a>
-            <a href="<?= $this->createUrl('/info/voprosi-i-otveti.html');?>">Вопросы-ответы</a>
+            <a href="<?= $this->createUrl('article/detail',array('id'=>3));?>">Доставка и оплата</a>
+            <a href="<?= $this->createUrl('article/detail',array('id'=>4));?>">Вопросы-ответы</a>
             <a href="<?= $this->createUrl('/site/contact');?>">Написать нам</a>
         </nav>
 
@@ -70,11 +70,11 @@
                 <div class="category">
                     <h3 class="title">Популярные препараты</h3>
                     <ul>
-                        <li><a href="<?php echo $this->createUrl('tabletki/kupit_viagru_dzhenerik.html');?>">Дженерик Виагра</a></li>
-                        <li><a href="<?php echo $this->createUrl('tabletki/kupit_cialis_dzhenerik.html');?>">Дженерик Сиалис</a></li>
-                        <li><a href="<?php echo $this->createUrl('tabletki/dapoxetine.html');?>">Дапоксетин</a></li>
-                        <li><a href="<?php echo $this->createUrl('tabletki/super-p-force.html');?>">Super P-Force</a></li>
-                        <li><a href="<?php echo $this->createUrl('tabletki/nabor-classic.html');?>">Набор «Классический»</a></li>
+                        <li><a href="<?php echo $this->createUrl('product/index',array('id'=>11));?>">Дженерик Виагра</a></li>
+                        <li><a href="<?php echo $this->createUrl('product/index',array('id'=>4));?>">Дженерик Сиалис</a></li>
+                        <li><a href="<?php echo $this->createUrl('product/index',array('id'=>14));?>">Дапоксетин</a></li>
+                        <li><a href="<?php echo $this->createUrl('product/index',array('id'=>15));?>">Super P-Force</a></li>
+                        <li><a href="<?php echo $this->createUrl('product/index',array('id'=>17));?>">Набор «Классический»</a></li>
                     </ul>
                 </div>
 <?php /*
@@ -110,8 +110,8 @@
             <p>
                 <span>© «Аптекаръ», 2013.</span><br><br>
                 <a href="/">Каталог продукции</a>
-                <a href="<?= $this->createUrl('/info/dostavka.html');?>">Доставка и оплата</a>
-                <a href="<?= $this->createUrl('/info/voprosi-i-otveti.html');?>">Вопросы-ответы</a>
+                <a href="<?= $this->createUrl('article/detail',array('id'=>3));?>">Доставка и оплата</a>
+                <a href="<?= $this->createUrl('article/detail',array('id'=>4));?>">Вопросы-ответы</a>
                 <a href="<?= $this->createUrl('/site/contact');?>">Написать нам</a>
             </p>
             <div class="counter"><a href="#"><img alt="" src="/images/demo/img2.jpg"></a></div>
