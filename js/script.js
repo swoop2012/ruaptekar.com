@@ -282,6 +282,8 @@ window.scrollTo(0,0)
             $.each(self.product,function(){
                 var price;
                 price = parseInt(this.basketPriceHolder.text());
+                if(this.product.hasClass('discount'))
+                    price *= -1;
                 if(!isNaN(price)){
                     self.totalPrice +=  price;
                 }
