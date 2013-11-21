@@ -216,7 +216,7 @@ nav a:hover { background: url(../images/menu.png) 0% 100% repeat-x;}
 .basket-tools button { float: right; border: none; font-size: 29px; color: #ffffff; padding: 7px 20px 9px 20px; border-bottom: 1px solid #e07707;}
 .basket-tools button::-moz-focus-inner{padding:0;border:0}
 
-.basket-coupon { font-size: 16px; color: #000000;}
+.basket-coupon { font-size: 16px; color: #000000; margin-bottom: 25px;}
 .basket-coupon p { padding: 0px 0px 10px 0px;}
 .basket-coupon input { width: 232px; height: 30px; border: 1px solid #e1e1e1; text-align: center; font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #000000; background: url(../images/marker.png) repeat-x;}
 .basket-coupon input:focus { box-shadow: 0px 0px 4px #ffb02e; -webkit-box-shadow: 0px 0px 4px #ffb02e; -moz-box-shadow: 0px 0px 4px #ffb02e;}
@@ -241,7 +241,7 @@ nav a:hover { background: url(../images/menu.png) 0% 100% repeat-x;}
 .errorMessage,.errorSummary {color:red;}
 .delivery-payment { margin: 0px 0px 35px 0px; overflow: hidden;}
 .delivery-payment h4 { font-size: 16px; color: #000000; padding: 15px 0px 15px 18px;}
-.delivery-payment p { width: 210px; height: 55px; float: left; padding: 13px 10px; border: 1px solid #e1e1e1; font-size: 14px; font-weight: bold; color: #000000; line-height: 19px; margin: 0px 0px 0px 17px;}
+.delivery-payment p { width: 210px; height: 55px; float: left; padding: 13px 10px; border: 1px solid #e1e1e1; font-size: 14px; font-weight: bold; color: #000000; line-height: 19px; margin: 0px 0px 15px 17px;}
 .delivery-payment p:hover, .delivery-payment p.active { border:  1px solid #fe9617; cursor: pointer;}
 .delivery-payment p input { margin:  0px 5px 0px 0px;}
 .delivery-payment p span { font-size: 12px; color: #757575; padding: 0px 0px 0px 15px;}
@@ -250,7 +250,7 @@ nav a:hover { background: url(../images/menu.png) 0% 100% repeat-x;}
 
 .ord { padding: 0px 0px 20px 18px;}
 .ord h3 { font-size: 16px; color: #000000; padding: 0px 0px 15px 0px;}
-.ord p { height: 35px; border: 1px solid #e1e1e1; padding: 13px 18px;}
+.ord p { height: 35px; border: 1px solid #e1e1e1; padding: 13px 18px; margin-bottom: 7px;}
 .ord p b.ord-price { font-size: 16px; float: right; line-height: 35px;}
 .ord p b.ord-price span{ font-size: 16px; color:#000000;line-height: 35px;float: none;}
 .ord span { float: left;font-size: 12px; line-height: 17px;}
